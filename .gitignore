@@ -1,3 +1,4 @@
 wp-config.php
 config/deploy.rb
 wp-content/uploads/*
+.DS_Store
