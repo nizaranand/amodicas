@@ -1,0 +1,14 @@
+*** Premium Pixels Changelog ***
+
+
+
+14 Apr 2011 - Version 1.0.1
+
+	* template-gallery.php - Added
+	* functions.php - Added gallery thumbnail dimensions
+	* style.css - Gallery styles added
+
+
+13 Apr 2011 - Version 1.0
+	
+	* First Release

@@ -1,0 +1,114 @@
+s:6436:"<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/from:ormanclark</id>
+  <link type="text/html" href="http://search.twitter.com/search?q=from%3Aormanclark" rel="alternate"/>
+  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=from%3Aormanclark&amp;rpp=5" rel="self"/>
+  <title>from:ormanclark - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
+  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=from%3Aormanclark&amp;rpp=5&amp;since_id=67770831463395328" rel="refresh"/>
+  <twitter:warning>since_id removed for pagination.</twitter:warning>
+  <updated>2011-05-09T20:00:54Z</updated>
+  <openSearch:itemsPerPage>5</openSearch:itemsPerPage>
+  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=67770831463395328&amp;page=2&amp;q=from%3Aormanclark&amp;rpp=5" rel="next"/>
+  <entry>
+    <id>tag:search.twitter.com,2005:67680462163812353</id>
+    <published>2011-05-09T20:00:54Z</published>
+    <link type="text/html" href="http://twitter.com/ormanclark/statuses/67680462163812353" rel="alternate"/>
+    <title>Download today's freebie: &quot;Pretty Little Search Forms (PSD)&quot; http://bit.ly/jL5dkg</title>
+    <content type="html">Download today&amp;apos;s freebie: &amp;quot;Pretty Little Search Forms (PSD)&amp;quot; &lt;a href=&quot;http://bit.ly/jL5dkg&quot;&gt;http://bit.ly/jL5dkg&lt;/a&gt;</content>
+    <updated>2011-05-09T20:00:54Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/1141363788/avatar-sep_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>ormanclark (Orman Clark)</name>
+      <uri>http://twitter.com/ormanclark</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:67632837259567104</id>
+    <published>2011-05-09T16:51:39Z</published>
+    <link type="text/html" href="http://twitter.com/ormanclark/statuses/67632837259567104" rel="alternate"/>
+    <title>@FarzadBan lol!</title>
+    <content type="html">&lt;a href=&quot;http://twitter.com/FarzadBan&quot;&gt;@FarzadBan&lt;/a&gt; lol!</content>
+    <updated>2011-05-09T16:51:39Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/1141363788/avatar-sep_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <twitter:lang>eo</twitter:lang>
+    <author>
+      <name>ormanclark (Orman Clark)</name>
+      <uri>http://twitter.com/ormanclark</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:67599476205961217</id>
+    <published>2011-05-09T14:39:05Z</published>
+    <link type="text/html" href="http://twitter.com/ormanclark/statuses/67599476205961217" rel="alternate"/>
+    <title>@imrogb I probably should do! Stay pretty!</title>
+    <content type="html">&lt;a href=&quot;http://twitter.com/imrogb&quot;&gt;@imrogb&lt;/a&gt; I probably should do! Stay pretty!</content>
+    <updated>2011-05-09T14:39:05Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/1141363788/avatar-sep_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>ormanclark (Orman Clark)</name>
+      <uri>http://twitter.com/ormanclark</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:67597953837178881</id>
+    <published>2011-05-09T14:33:02Z</published>
+    <link type="text/html" href="http://twitter.com/ormanclark/statuses/67597953837178881" rel="alternate"/>
+    <title>@imrogb Damn straight!</title>
+    <content type="html">&lt;a href=&quot;http://twitter.com/imrogb&quot;&gt;@imrogb&lt;/a&gt; Damn straight!</content>
+    <updated>2011-05-09T14:33:02Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/1141363788/avatar-sep_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>ormanclark (Orman Clark)</name>
+      <uri>http://twitter.com/ormanclark</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:67597157921849345</id>
+    <published>2011-05-09T14:29:53Z</published>
+    <link type="text/html" href="http://twitter.com/ormanclark/statuses/67597157921849345" rel="alternate"/>
+    <title>New on Premium Pixels: &quot;Pretty Little Search Forms (PSD)&quot; http://bit.ly/jL5dkg</title>
+    <content type="html">New on Premium Pixels: &amp;quot;Pretty Little Search Forms (PSD)&amp;quot; &lt;a href=&quot;http://bit.ly/jL5dkg&quot;&gt;http://bit.ly/jL5dkg&lt;/a&gt;</content>
+    <updated>2011-05-09T14:29:53Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/1141363788/avatar-sep_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>ormanclark (Orman Clark)</name>
+      <uri>http://twitter.com/ormanclark</uri>
+    </author>
+  </entry>
+</feed>
+";
