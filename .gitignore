@@ -1,4 +1,3 @@
 wp-config.php
 config/deploy.rb
 wp-content/uploads/*
-.htaccess
