@@ -35,7 +35,7 @@
 											
 							<!--BEGIN .entry-meta .entry-header-->
 							<div class="entry-meta entry-header">
-								<span><?php _e('by', 'framework') ?></span> <?php the_author(); ?> <span><?php _e('on', 'framework') ?></span> <?php the_time( get_option('date_format') ); ?> <span><?php _e('in', 'framework') ?></span> <?php the_category(', ') ?> <span><?php _e('with', 'framework') ?></span> <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?> <?php edit_post_link( __('edit', 'framework'), '<span class="edit-post">[', ']</span>' ); ?><span class='st_gbuzz_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_facebook_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_twitter_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span>
+								<span><?php _e('by', 'framework') ?></span> <?php the_author(); ?> <span><?php _e('on', 'framework') ?></span> <?php the_time( get_option('date_format') ); ?> <span><?php _e('in', 'framework') ?></span> <?php the_category(', ') ?> <span><?php _e('with', 'framework') ?></span> <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?> <?php edit_post_link( __('edit', 'framework'), '<span class="edit-post">[', ']</span>' ); ?>
 							<!--END .entry-meta entry-header -->
 							</div>
 							
