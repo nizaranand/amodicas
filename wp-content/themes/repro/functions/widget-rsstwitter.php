@@ -73,20 +73,16 @@ class tz_rsstwitter_widget extends WP_Widget {
 		
 		
 		//Twitter code
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, "http://www.twitter.com/$twitter");
-		curl_setopt($ch, CURLOPT_FAILONERROR, 1);
-		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-		curl_setopt($ch, CURLOPT_PORT, 80);
-		curl_setopt($ch, CURLOPT_TIMEOUT, 30);
-		curl_setopt($ch, CURLOPT_HEADER, false);
-		curl_setopt($ch, CURLOPT_REFERER, $referer);
-		//curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
-		$document = curl_exec($ch);
-		curl_close($ch);
-		preg_match_all('#<span id="follower_count" class="stats_count numeric">(.*?)</span>#is', $document, $urlmatches);
-	   
+		$twit = file_get_contents("http://twitter.com/users/show/".$twitter.".xml");
+		$begin = '<followers_count>'; $end = '</followers_count>';
+		$page = $twit;
+		$parts = explode($begin,$page);
+		$page = $parts[1];
+		$parts = explode($end,$page);
+		$tcount = $parts[0];
+		if($tcount == '') { $tcount = '0'; }
+	
+	
 	?>
         <div class="rss_widget">
         
@@ -113,7 +109,7 @@ class tz_rsstwitter_widget extends WP_Widget {
             <div class="details">
                 
                 <a href="<?php echo "http://www.twitter.com/$twitter"; ?>">
-                <span class="count"><?php echo $urlmatches[1][0]; ?></span>
+                <span class="count"><?php echo $tcount; ?></span>
                 <span class="desc"><?php _e('Followers', 'framework'); ?></span>
                 </a>
                 
