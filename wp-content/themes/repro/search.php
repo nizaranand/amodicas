@@ -39,8 +39,8 @@
                                     <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
                                     <span class="date"><?php the_time( get_option('date_format') ); ?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></span>
                                     
-                                    <p><?php echo substr(get_the_excerpt(), 0, 240); ?>
-               						<?php if(strlen(get_the_excerpt()) > 240) : ?>...<?php endif; ?> </p>
+                                    <p><?php echo substr(get_the_excerpt(), 0, 500); ?>
+               						<?php if(strlen(get_the_excerpt()) > 500) : ?>...<?php endif; ?> </p>
                                     
                                 </div><!--details-->
                                 <div class="clear"></div>
