@@ -2,8 +2,6 @@
 
 <div class="post_columns">
 
-    <h4><span><?php echo ($tz_recent_title); ?></span></h4>
-
     <?php 
 	$query = new WP_Query();
 	$query->query('posts_per_page=' . $tz_recent_number .'&caller_get_posts=1');
@@ -23,8 +21,8 @@
         <div class="date"><?php the_time( get_option('date_format') ); ?>, <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></div>
         
         <div class="excerpt">
-            <p><?php echo substr(get_the_excerpt(), 0, 150); ?>
-               <?php if(strlen(get_the_excerpt()) > 150) : ?>...<?php endif; ?> </p>
+            <p><?php echo substr(get_the_excerpt(), 0, 500); ?>
+               <?php if(strlen(get_the_excerpt()) > 500) : ?>...<?php endif; ?> </p>
         </div><!--excerpt-->
     
     </div><!--column-->

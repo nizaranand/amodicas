@@ -499,12 +499,6 @@ pre {
 	color:#444444;
 }
 
-.post_columns .column{
-	width:190px;
-	float:left;
-	margin:0 25px 40px 0;
-}
-
 .post_grid, .category_list, .tab{
 	margin:0 0 28px 0;
 	float:left;
@@ -586,7 +580,7 @@ pre {
 .post_columns .column h3, #related .column h3 a{
 	display:block;
 	color:#444444;
-	font-size:14px;
+	font-size:20px;
 	font-weight:normal;
 	line-height:25px;
 	margin: 0 0 15px 0;
@@ -624,6 +618,7 @@ pre {
 .post_columns .column .excerpt p{
 	font-size:12px;
 	line-height:20px;
+	padding-bottom:20px;
 }
 
 .post_grid li{
