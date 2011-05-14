@@ -159,7 +159,17 @@
               	
                 <?php if($tz_banner_adsense == '') : // if there is no adsense data, then just display the image?>
                 
-                <a href="<?php echo ($tz_banner_dest_url); ?>"><img src="<?php echo ($tz_banner_img_url); ?>" alt="banner" width="468" height="60" /></a>
+                <script type="text/javascript"><!--
+								google_ad_client = "ca-pub-4000242548128639";
+								/* Banner Top */
+								google_ad_slot = "3484824362";
+								google_ad_width = 468;
+								google_ad_height = 60;
+								//-->
+								</script>
+								<script type="text/javascript"
+								src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+								</script>
                 
                 <?php else: ?>
                 
