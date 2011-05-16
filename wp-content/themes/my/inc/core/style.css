@@ -1,0 +1,203 @@
+.clearfix:after { clear: both; content: ' '; display: block; font-size: 0; line-height: 0; visibility: hidden; width: 0; height: 0;}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+#options_form, #myarea {
+	width: 733px;
+	font-size: 11px;
+}
+#myarea {
+	color: #666; text-shadow: 0 1px 0 #fff;
+	float: none;
+}
+
+#tabs { 
+	padding: 7px;
+	background-color: #f3f3f3;
+}
+
+#tabs input, #tabs textarea, #tabs select {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #f3f3f3;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
+	padding: 4px;
+	width: 260px;
+	font-size: 11px;
+	color: #777;
+}
+
+#tabs input:focus, #tabs textarea:focus, #tabs select:focus {
+	background-color: #fff;
+	color: #222;
+	outline: none;
+}
+
+#tabs textarea {
+	height: 150px;
+	overflow: auto;
+}
+
+#tabs input.kcheck { 
+	border: 0;
+	vertical-align: bottom;
+	margin-right: 26px;
+	width: auto;
+	margin-top: 4px;
+	display: inline-block;
+}
+
+#tabs input.kradio { 
+	border: 0;
+	vertical-align: bottom;
+	margin-right: 25px;
+	width: auto;
+	margin-top: 4px;
+	display: inline-block;
+}
+
+#tabs ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+	width: 160px;
+	overflow: hidden;
+	position: relative;
+	margin-right: -1px;
+}
+
+#tabs ul li {
+	float: left;
+	width: 160px;
+	border-right: 0;
+	margin: 0;
+}
+
+#tabs ul li a {
+	float: left;
+	padding: 10px 15px 10px 5px;
+	width: 130px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+}
+
+#tabs ul li.ui-state-active {
+	border: 1px solid #aaa;
+	border-left: 0;
+	background: #fff url(images/menu-dark.gif) no-repeat 0px -37px;
+}
+
+#tabs ul li.ui-state-active a {
+	color: #000;
+	font-weight: 900;
+	padding: 10px 15px;
+}
+
+.tabcontent {
+	border: 1px solid #aaa; 
+	background-color: #fff;
+	float: left;
+	width: 558px;
+}
+
+.myrow { 
+	float: left;
+	width: 518px;
+	padding: 20px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.myrow.section {
+	float: left;
+	width: 518px;
+	display: inline;
+	padding: 10px 20px 10px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 11px;
+	background-color: #f5f5f5;
+	color: #666;
+}
+
+.myrow.section p {
+	font-size: 11px;
+	padding: 0;
+	color: #999;
+	margin: 0;
+}
+
+.t_r { 
+	text-align: right;
+}
+
+.t_r a {
+	float: left;
+	display: inline;
+	margin: 0 20px 0 0;
+	padding: 3px 0;
+}
+
+.t_r span {
+	width: 30px;
+	height: 28px;
+	margin-top: -5px;
+	float: left;
+}
+
+.t_r a .logs {
+	background: url(images/menu.png) no-repeat -151px -33px;
+}
+
+.t_r a .support {
+	background: url(images/menu.png) no-repeat -301px -33px;
+}
+
+.t_r a:hover .logs {
+	background: url(images/menu.png) no-repeat -151px -1px;
+}
+
+.t_r a:hover .support {
+	background: url(images/menu.png) no-repeat -301px -1px;
+}
+
+.myrow h3 {
+	font-size: 11px;
+	color: #434343;
+	margin: 0;
+	padding: 0;
+}
+
+.mydesc {
+	float: right;
+	width: 229px;
+	font-size: 10px;
+	color: #999;
+}
+
+.myinput {
+	float: left;
+	width: 289px;
+}
+
+#tabs .myrow.full textarea {
+	width: 515px;
+	height: 80px;
+}
+
+.check, .radio {
+	text-align: right;
+
+}
+
+.radio p {
+	padding: 0 0 8px;
+	margin: 0;
+}
+
+.radio label {
+	margin-right: 5px;
+}
