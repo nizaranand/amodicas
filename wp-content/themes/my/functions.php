@@ -1,5 +1,5 @@
 <?php
-include('wp-pagenavi.php');
+// include('wp-pagenavi.php');
 // Load Jquery
 /* ----------------------------------------------*/
 function my_init() { 
