@@ -81,6 +81,7 @@ blockquote { border-left: 2px solid #b0b0b0; background-color: #f1f1f1; }
 #sidebar .widget{
 	float:left;
 	width:300px;
+	padding-bottom:10px;
 	margin-bottom:10px;
 }
 
