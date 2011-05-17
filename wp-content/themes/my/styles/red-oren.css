@@ -29,11 +29,11 @@ input, textarea { border: 1px solid #b0b0b0; }
 .thumb em { background: url(images/file.png) no-repeat center left; }
 .text small { color: #999; background: url(images/line.gif) repeat-x bottom left; }
 
-.sidetab-head { background: url(images/gra.gif) repeat-x top left; border-bottom: 1px solid #b0b0b0; }
+.sidetab-head { background-color: #a13b16; border-bottom: 1px solid #b0b0b0; }
 .sidetab-head a { color: #a5a5a5; }
-.sidetab-head li.ui-tabs-selected a { color: #000; }
+.sidetab-head li.ui-tabs-selected a { color: #FFF; }
 .sidetabdiv li { border-bottom: 1px solid #e1e1e1; }
-.sidetabdiv li:hover { background-color: #f7f7f7; }
+.sidetabdiv li:hover { background-color: #ebb8a5; }
 .sidetabdiv li:hover a img { border: 1px solid #ccc; }
 .sidetabdiv a img { border: 1px solid #f7f7f7; background-color: #fff; }
 #c2 a { color: #434343; }
