@@ -229,7 +229,7 @@ class tz_rsstwitter_widget extends WP_Widget {
                 
                 <a href="<?php echo "http://www.twitter.com/$twitter"; ?>">
                 <span class="count"><?php echo $tcount; ?></span>
-                <span class="desc"><?php _e('Siga-nós', 'framework'); ?></span>
+                <span class="desc"><?php _e('Siga-nos', 'framework'); ?></span>
                 </a>
                 
             </div><!--details-->
