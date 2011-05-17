@@ -74,3 +74,50 @@ ul.search li h3 a { color: #333; font-size: 18px; line-height: 20px; }
 blockquote { border-left: 2px solid #b0b0b0; background-color: #f1f1f1; }
 .text .comm { display: none; }
 .text.no .comm { display: inline; }
+
+
+/* Sidebar -------------------------------------------------------------------- */
+
+#sidebar .widget{
+	float:left;
+	width:300px;
+}
+
+#sidebar .widget h3{
+	padding:10px 25px 10px 25px; 
+}
+/* Twitter & RSS -------------- */
+
+.rss_widget, .twitter_widget{
+	float:left;
+}
+
+.rss_widget{
+	padding:0 25px 0 25px; 
+}
+
+.twitter_widget{
+	padding:0 25px 0 0; 
+}
+
+span.icon{
+	float:left;
+	margin:5px 10px 0 0;
+}
+
+span.count{
+	float:left;
+	font-size:21px;
+}
+
+a span.count{
+	float:left;
+}
+
+span.desc{
+	float:left;
+}
+
+a span.desc{
+	float:left;
+}
