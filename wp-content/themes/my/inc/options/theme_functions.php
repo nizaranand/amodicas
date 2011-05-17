@@ -23,7 +23,7 @@ function themetation_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'themetation_excerpt_length' );
 
 function themetation_continue_reading_link() {
-	return ' <a href="'. get_permalink() . '">' . __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'themetation' ) . '</a>';
+	return ' <a href="'. get_permalink() . '">' . __( 'Continue lendo <span class=\"meta-nav\">&rarr;</span>', 'themetation' ) . '</a>';
 }
 
 function themetation_auto_excerpt_more( $more ) {

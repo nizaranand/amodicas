@@ -239,10 +239,10 @@ function twentyten_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'twentyten_excerpt_length' );
 
 /**
- * Returns a "Continue Reading" link for excerpts
+ * Returns a "Continue Lendo" link for excerpts
  *
  * @since Twenty Ten 1.0
- * @return string "Continue Reading" link
+ * @return string "Continue Lendo" link
  */
 function twentyten_continue_reading_link() {
 	return ' <a href="'. get_permalink() . '">' . __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyten' ) . '</a>';
@@ -263,13 +263,13 @@ function twentyten_auto_excerpt_more( $more ) {
 add_filter( 'excerpt_more', 'twentyten_auto_excerpt_more' );
 
 /**
- * Adds a pretty "Continue Reading" link to custom post excerpts.
+ * Adds a pretty "Continue Lendo" link to custom post excerpts.
  *
  * To override this link in a child theme, remove the filter and add your own
  * function tied to the get_the_excerpt filter hook.
  *
  * @since Twenty Ten 1.0
- * @return string Excerpt with a pretty "Continue Reading" link
+ * @return string Excerpt with a pretty "Continue Lendo" link
  */
 function twentyten_custom_excerpt_more( $output ) {
 	if ( has_excerpt() && ! is_attachment() ) {

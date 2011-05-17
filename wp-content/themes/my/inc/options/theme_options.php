@@ -203,7 +203,7 @@ $options = array (
 		"name" => "Set Your Number",
 		"type" => "open"),		
 	array(
-		"name" => "Recent Comment",
+		"name" => "Comentários Recentes",
 		"id" => "rpn",
 		"type" => "text",
 		"std" => "5",

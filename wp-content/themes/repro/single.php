@@ -22,7 +22,7 @@
                     
                     <div class="meta">
                     
-                    	<?php _e('Written by', 'framework') ?> <?php the_author_posts_link(); ?> <?php _e('on', 'framework') ?> <?php the_time( get_option('date_format') ); ?> <?php _e('in', 'framework'); ?> <?php the_category(', '); ?> - <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?>
+                    	<?php _e('Written by', 'framework') ?> <?php the_author_posts_link(); ?> <?php _e('on', 'framework') ?> <?php the_time( get_option('date_format') ); ?> <?php _e('em', 'framework'); ?> <?php the_category(', '); ?> - <?php comments_popup_link(__('No comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?>
                     
                     </div><!--meta-->
                     

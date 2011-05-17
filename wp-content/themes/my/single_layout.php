@@ -8,7 +8,7 @@
 </div>
 
 <div class="text">
-<small><?php the_time('F jS') ?> <?php _e('in','my')?> <?php the_category(', ') ?> <?php _e('by','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Edit', '', ' '); ?></small>
+<small><?php the_time('F jS') ?> <?php _e('em','my')?> <?php the_category(', ') ?> <?php _e('por','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Editar', '', ' '); ?></small>
 <h1><?php the_title(); ?></h1>
 <p><em><?php the_excerpt(); ?></em></p>
 </div>
@@ -35,7 +35,7 @@ elseif(get_option('single_layout') == "author-bottom-with-excerpt") { // Layout 
 </div>
 
 <div class="text">
-<small><?php the_time('F jS') ?> <?php _e('in','my')?> <?php the_category(', ') ?> <?php _e('by','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Edit', '', ' '); ?></small>
+<small><?php the_time('F jS') ?> <?php _e('em','my')?> <?php the_category(', ') ?> <?php _e('por','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Editar', '', ' '); ?></small>
 <h1><?php the_title(); ?></h1>
 <p><em><?php the_excerpt(); ?></em></p>
 </div>
@@ -61,7 +61,7 @@ elseif(get_option('single_layout') == "without-author-box-and-excerpt") { // Lay
 </div>
 
 <div class="text">
-<small><?php the_time('F jS') ?> <?php _e('in','my')?> <?php the_category(', ') ?> <?php _e('by','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Edit', '', ' '); ?></small>
+<small><?php the_time('F jS') ?> <?php _e('em','my')?> <?php the_category(', ') ?> <?php _e('por','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Editar', '', ' '); ?></small>
 <h1><?php the_title(); ?></h1>
 </div>
 
@@ -72,7 +72,7 @@ elseif(get_option('single_layout') == "without-author-box-and-excerpt") { // Lay
 elseif(get_option('single_layout') == "without-thumbnail-excerpt-and-author-box") { // Layout - content  ?>
 
 <div class="text no">
-<small><?php the_time('F jS') ?> <?php _e('in','my')?> <?php the_category(', ') ?> <?php _e('by','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Edit', '', ' '); ?></small>
+<small><?php the_time('F jS') ?> <?php _e('em','my')?> <?php the_category(', ') ?> <?php _e('por','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Editar', '', ' '); ?></small>
 <h1><?php the_title(); ?></h1>
 </div>
 
@@ -83,7 +83,7 @@ elseif(get_option('single_layout') == "without-thumbnail-excerpt-and-author-box"
 elseif(get_option('single_layout') == "without-thumbnail-and-excerpt") { // Layout - content > author box ?>
 
 <div class="text no">
-<small><?php the_time('F jS') ?> <?php _e('in','my')?> <?php the_category(', ') ?> <?php _e('by','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Edit', '', ' '); ?></small>
+<small><?php the_time('F jS') ?> <?php _e('em','my')?> <?php the_category(', ') ?> <?php _e('por','my') ?> <?php the_author_posts_link(); ?> . <?php edit_post_link('Editar', '', ' '); ?></small>
 <h1><?php the_title(); ?></h1>
 
 </div>

@@ -1,7 +1,7 @@
 <div class="tabs col">
 <ul class="sidetab-head">
-<li><a href="#c1"><?php _e('Popular','my') ?></a></li>
-<li><a href="#c2"><?php _e('Comment','my') ?></a></li>
+<li><a href="#c1"><?php _e('Populares','my') ?></a></li>
+<li><a href="#c2"><?php _e('Comentários','my') ?></a></li>
 </ul>
 
 <div id="c1" class="sidetabdiv">

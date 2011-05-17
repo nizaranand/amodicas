@@ -18,15 +18,15 @@
 	                  </a>
 	                  
 	                  <span><?php comments_popup_link('0', '1', '%'); ?></span>
-	                  <em><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php _e('Continue Reading','my') ?></a></em>
+	                  <em><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php _e('Continue Lendo','my') ?></a></em>
 	                  </div>
                   <?php } ?>
                   
                   <div class="text <?php if(get_option('index_layout') == null) { echo "no"; } ?>">
-                  <small><?php the_time('F jS') ?> <?php _e('in','my') ?> <?php the_category(', ') ?> <?php _e('by','my') ?> <?php the_author_posts_link(); ?><span class="comm"> . <?php comments_popup_link(__('no comment','my'), __('1 comment','my'), __('% comments','my')); ?></span> . <?php edit_post_link(__('Edit','my'), '', ' '); ?></small>
+                  <small><?php the_time('F jS') ?> <?php _e('em','my') ?> <?php the_category(', ') ?> <?php _e('por','my') ?> <?php the_author_posts_link(); ?><span class="comm"> . <?php comments_popup_link(__('nenhum comentário','my'), __('1 comment','my'), __('% comments','my')); ?></span> . <?php edit_post_link(__('Editar','my'), '', ' '); ?></small>
                   <h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
                   <em><?php the_excerpt(); ?></em>
-                  <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>" class="comm"><?php _e('Continue Reading','my') ?></a>
+                  <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>" class="comm"><?php _e('Continue Lendo','my') ?></a>
 				
       				</div>
               <div class="clear"></div>

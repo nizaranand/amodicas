@@ -15,7 +15,7 @@ if ( post_password_required() ) : ?>
 
 <div id="comment_wrap">
 <?php if ( have_comments() ) : ?> 
-	<h3><?php comments_number('Be The First To Comment', 'One Comment', '% Comments' );?></h3>
+	<h3><?php comments_number('Seja o primeiro a comentar', 'One Comment', '% Comments' );?></h3>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 			<div class="navigation">
@@ -89,8 +89,8 @@ $oddcomment = 'class="alt" ';
 	
 	<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 		<div class="navigation">
-			<div class="nav-previous"><?php previous_comments_link( __( '<span class="meta-nav">&larr;</span> Older Comments', 'my' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'my' ) ); ?></div>
+			<div class="nav-previous"><?php previous_comments_link( __( '<span class="meta-nav">&larr;</span> Antigos Comentários', 'my' ) ); ?></div>
+			<div class="nav-next"><?php next_comments_link( __( 'Novos Comentários <span class="meta-nav">&rarr;</span>', 'my' ) ); ?></div>
 			<div class="clear"></div>
 		</div> <!-- .navigation -->
 
@@ -103,7 +103,7 @@ $oddcomment = 'class="alt" ';
 
 	 <?php else : // comments are closed ?>
 		<!-- If comments are closed. -->
-		<p class="nocomments"><?php _e('Comments are closed.','my') ?></p>
+		<p class="nocomments"><?php _e('Comentários Desativados.','my') ?></p>
 
 	<?php endif; ?>
    

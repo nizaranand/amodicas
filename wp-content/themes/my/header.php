@@ -92,7 +92,7 @@
   </<?php echo $heading_tag; ?>>
   </div>
     <form method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
-    	<input type="text" id="search_input" name="s" onblur="if ( this.value == '' ) { this.value = 'Type and Search'; }" onfocus="if ( this.value == 'Type and Search' ) { this.value = ''; }" value="<?php echo (strlen(get_search_query()) > 2) ? get_search_query() : 'Type and Search'; ?>"  />
+    	<input type="text" id="search_input" name="s" onblur="if ( this.value == '' ) { this.value = 'Que dica deseja buscar?'; }" onfocus="if ( this.value == 'Que dica deseja buscar?' ) { this.value = ''; }" value="<?php echo (strlen(get_search_query()) > 2) ? get_search_query() : 'Que dica deseja buscar?'; ?>"  />
       <input type="submit" id="search_submit" value="&nbsp;" />
     </form>
   </div>
