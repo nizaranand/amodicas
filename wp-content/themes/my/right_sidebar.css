@@ -136,6 +136,7 @@ blockquote, code { padding: 15px; cursor: default; }
 a.button { padding: 4px 8px; text-decoration: none; }
 
 .small-ad { float: left; width: 298px; margin-bottom: 25px; }
+.small-ad .boo-widget {float:left; width: 125px; padding:5px;}
 .side-big-ad { text-align: center; margin: 0 0 15px 0; }
 .side-big-ad a img, .small-ad a img { border: 0; }
 .small-ad { padding: 15px 0 15px 15px; width: 283px; text-align: center; }
