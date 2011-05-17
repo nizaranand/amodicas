@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: my\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-04 13:40+0730\n"
+"PO-Revision-Date: 2011-05-16 23:33-0300\n"
+"Last-Translator: Daniel Docki <daniel.docki@gmail.com>\n"
+"Language-Team: kailoon <chankailoon@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: /Users/kailoon/Sites/development/wp-content/themes/my\n"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/archive.php:24
+#: /Users/kailoon/Sites/development/wp-content/themes/my/index.php:26
+msgid "no comment"
+msgstr "nenhum comentário"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/archive.php:24
+#: /Users/kailoon/Sites/development/wp-content/themes/my/index.php:26
+msgid "1 comment"
+msgstr "1 comentário"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/archive.php:24
+#: /Users/kailoon/Sites/development/wp-content/themes/my/index.php:26
+#, php-format
+msgid "% comments"
+msgstr "% comentários"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/archive.php:24
+#: /Users/kailoon/Sites/development/wp-content/themes/my/index.php:26
+msgid "Edit"
+msgstr "Editar"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/comments.php:22
+#: /Users/kailoon/Sites/development/wp-content/themes/my/comments.php:92
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Antigos Comentários"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/comments.php:23
+#: /Users/kailoon/Sites/development/wp-content/themes/my/comments.php:93
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Novos Comentários <span class=\"meta-nav\">&rarr;</span>"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/comments.php:60
+msgid "Leave a Reply"
+msgstr "Deixe um Comentário"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/comments.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Deixei um Comentário para %s"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/comments.php:62
+msgid "Cancel reply"
+msgstr "Cancelar Comentário"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/comments.php:63
+msgid "Post Comment"
+msgstr "Comentar"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/wp-pagenavi.php:157
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Página %CURRENT_PAGE% de %TOTAL_PAGES%"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/wp-pagenavi.php:160
+msgid "&laquo; First"
+msgstr "&laquo; Primeiro"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/wp-pagenavi.php:161
+msgid "Last &raquo;"
+msgstr "Último &raquo;"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/wp-pagenavi.php:162
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/wp-pagenavi.php:163
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/wp-pagenavi.php:164
+#: /Users/kailoon/Sites/development/wp-content/themes/my/wp-pagenavi.php:165
+msgid "..."
+msgstr "..."
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/admin_functions.php:85
+#, php-format
+msgid "Search results for %s"
+msgstr "Resultados da pesquisa para %s"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/admin_functions.php:88
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/admin_functions.php:105
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/admin_functions.php:116
+msgid "Browsing"
+msgstr "Browsing"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/admin_functions.php:131
+msgid "404 - Page not Found"
+msgstr "404 - Página não encontrada"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/admin_functions.php:132
+msgid "Search"
+msgstr "Busca"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/widgets.php:10
+msgid "Pulls in images from your Flickr account."
+msgstr "Imagens da sua conta Flickr"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/widgets.php:12
+msgid " - Flickr"
+msgstr " - Flickr"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/widgets.php:17
+msgid "Photos on flickr"
+msgstr "Fotos no Flickr"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/widgets.php:75
+msgid "Pulls in your most recent tweet from Twitter."
+msgstr "Tweets mais recentes do Twitter"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/widgets.php:77
+msgid " - Twitter"
+msgstr " - Twitter"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/core/widgets.php:83
+msgid "Recent Tweets"
+msgstr "Recentes Tweets"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_comment.php:17
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_comment.php:17
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_comment.php:17
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_functions.php:11
+msgid "Top Menu"
+msgstr "Top Menu"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_functions.php:12
+msgid "Main Menu"
+msgstr "Main Menu"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_functions.php:26
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue lendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_options.php:7
+msgid "My WordPress"
+msgstr "My WordPress"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_options.php:8
+msgid "mywp"
+msgstr "mywp"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_widgets_area.php:9
+msgid "widget area in Sidebar"
+msgstr "widget area in Sidebar"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_widgets_area.php:19
+msgid "widget area in sidebar, above tabs"
+msgstr "widget area in sidebar, above tabs"
+
+#: /Users/kailoon/Sites/development/wp-content/themes/my/inc/options/theme_widgets_area.php:29
+msgid "widget area in the right of bottom area"
+msgstr "widget area in the right of bottom area"
+
